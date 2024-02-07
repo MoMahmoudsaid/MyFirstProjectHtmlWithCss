@@ -78,7 +78,7 @@ section{
     padding: 0.9375em 2.1875em;
     letter-spacing: 1px;
     border-radius: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     transition: 0.7s ease;
 }
 
@@ -93,6 +93,11 @@ section{
     padding-right: 30px;
 }
 
+.social-icons a img{
+    width: 25px;
+    height: 25px;
+}
+
 .title{
     display: flex;
     justify-content: center;
@@ -101,18 +106,15 @@ section{
     font-weight: 800;
     margin-bottom: 30px;
 }
-script writing
-Research and write scripts for different topics that can then be directly recorded for video production
-
-scrip
 
 .content{
     display: flex;
     justify-content: center;
-    flex-direction:row;
+    align-items: center;
+    flex-direction: row;
     flex-wrap:wrap;
-    text-align: center;
 }
+
 .card{
     background-color: #fff;
     width: 21.25em;
@@ -196,11 +198,7 @@ scrip
 }
 
 .content .icon{
-    font-size: 4.5;
-}
-
-.content .info h3{
-    color: #000;
+    font-size: 1.5;
 }
 
 .content .info p{
@@ -216,7 +214,7 @@ scrip
 }
 
 .footer-title{
-    font-size: 1.3em;
+    font-size: .9em;
     font-weight: 600;
 }
 
@@ -228,7 +226,10 @@ scrip
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
-
+/* عمل اول حرف كابتل */
+*::first-letter{
+    text-transform: capitalize;
+}
 
 @media (max-width:1023px){
     header{
