@@ -107,42 +107,23 @@ section{
     margin-bottom: 30px;
 }
 
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap:wrap;
+.what-did-you-learn{
+    background-color: #f0f0f0;
 }
 
-.card{
-    background-color: #fff;
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1, 1, 1/15%);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-    transition: 0.7s ease;
-}
-.card:hover{
-    transform: scale(1.1);
-}
-.icon{
-    color:#3a6cf4;
-    font-size: 8em;
-    text-align: center;
-}
-.info{
-    text-align: center;
-}
-.info h3{
-    color: #3a6cf4;
-    font-size: 1.2em;
+.what-did-you-learn p{
+    color: #0a49f6;
+    font-size: 2em;
     font-weight: 700;
-    margin: 10px;
+}
+
+.what-did-you-learn img{
+    margin-right:2000px;
+    width: 40%;
+    height: 40%;
 }
 .projects{
-    background-color: #000016;
+    background-color:#000016;
 }
 
 .projects .content{
@@ -214,7 +195,7 @@ section{
 }
 
 .footer-title{
-    font-size: .9em;
+    font-size: 0.9em;
     font-weight: 600;
 }
 
