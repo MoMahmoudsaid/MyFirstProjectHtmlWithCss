@@ -42,7 +42,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(https://down-yuantu.pngtree.com/ai/illus_our/20230705/df3a0354d78cab001a2c1564e590bc4d.jpg?e=1707524301&st=NTU5NDQzZmJhNWNkZGE5OTIzMzVmYzMwZWY1NTkyNzU&n=%E2%80%94Pngtree%E2%80%94hexagonal+abstract+background+with+a_13478711.jpg) no-repeat;
+    background: url("https://down-yuantu.pngtree.com/ai/illus_our/20230705/df3a0354d78cab001a2c1564e590bc4d.jpg?e=1707524301&st=NTU5NDQzZmJhNWNkZGE5OTIzMzVmYzMwZWY1NTkyNzU&n=%E2%80%94Pngtree%E2%80%94hexagonal+abstract+background+with+a_13478711.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
